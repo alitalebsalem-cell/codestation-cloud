@@ -1,0 +1,16 @@
+{
+  "name": "codestation",
+  "version": "1.0.0",
+  "description": "CodeStation Scraper + Viewer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "token": "node gen_token.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "puppeteer": "^21.3.0"
+  }
+}
